@@ -1,0 +1,10 @@
+<div class="flip" ng-class="myClass">
+	Questions {{ counter + 1 }}
+	<form name="myForm" novalidate>
+	<h2 ng-model="quiz[counter]">{{ quiz[counter].q }} </h2>
+
+	<input id="answer" name="answer" tab-index="1" type="text" ng-model="userAnswer" />
+	<a href="#/create" title="Quit">&times;</a>
+	</form>
+
+</div>
